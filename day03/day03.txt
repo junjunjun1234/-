@@ -1,0 +1,16 @@
+主要内容:
+    1. xpath解析
+    2. 对主页面进行分析
+    3. 抓取主页面当中所有壁纸的链接地址
+
+一. xpath解析
+    xpath -> xml html
+    pip install lxml
+
+二. 主页面分析
+    https://desk.zol.com.cn/dongman/
+    1. 拿到页面源代码
+    2. 提取到所有的ul(上面的) > li > a标签中的href的值
+
+三. 干主页
+    

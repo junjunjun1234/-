@@ -1,0 +1,49 @@
+大目标:
+    抓取所有桌面壁纸的高清大图
+
+第一天:
+    python安装
+    pycharm安装和破解
+    浏览器工具
+    requests模块
+
+第二天:
+    正则表达式
+    python里面如何使用正则 -> re模块
+    re模块实战案例
+
+第三天:
+    xpath入门
+    实战演示 -> 桌面壁纸页面分析以及抓取
+
+第四天:
+    桌面壁纸详情页的页面分析以及数据抓取
+    抓取图片
+
+第五天:
+    多线程任务的概念
+    利用多线程来完成图片的下载工作
+
+
+=============================================================
+一. python的安装
+    www.python.org
+    记得add python to path  一定要打钩
+    python xxxx.py文件   执行python程序
+
+二. pycharm的安装 -> 破解
+
+三. 浏览器工具
+
+四. 爬虫神器requests模块使用
+      resp = requests.get(网址)
+      resp = requests.post(网址)
+
+      resp.text  拿到页面源代码, 数据
+      resp.json()  能直接拿到json数据
+
+
+测验:
+    http://www.kfc.com.cn/kfccda/storelist/index.aspx
+    抓取肯德基餐厅信息.
+
